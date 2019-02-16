@@ -75,154 +75,132 @@ namespace 天刀金价查询工具
             {
                 //青龙乱舞
                 case "长生剑":
-                    Text = "长生剑";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-z2bd0q-ecxrh1-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-1776-s22490/");
                     break;
 
                 case "孔雀翎":
-                    Text = "孔雀翎";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-z2bd0q-egf0sq-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-1776-s22748/");
                     break;
 
                 case "情人箭":
-                    Text = "情人箭";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-z2bd0q-shy5fq-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-1776-s23097/");
                     break;
 
                 case "多情环":
-                    Text = "多情环";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-z2bd0q-ij1xwa-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-1776-s25298/");
                     break;
                 //大地飞鹰
                 case "凤凰集":
-                    Text = "凤凰集";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-wshzzs-dshotu-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-2187-s22491/");
                     break;
 
                 case "藏锋谷":
-                    Text = "藏锋谷";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-wshzzs-pntuvf-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-2187-s22749/");
                     break;
                 //血海飘香
                 case "蔷薇":
-                    Text = "蔷薇";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-kgzhlz-2gchua-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-2219-s23100/");
                     break;
 
                 case "吹雪":
-                    Text = "吹雪";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-kgzhlz-vmetc2-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-2219-s29654/");
                     break;
 
                 case "弧光":
-                    Text = "弧光";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-kgzhlz-4cklcc-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-2219-s29651/");
                     break;
                 //陌上花开
                 case "彼岸花":
-                    Text = "彼岸花";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-amue5z-vd5ynz-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-2239-s23285/");
                     break;
 
                 case "月见草":
-                    Text = "月见草";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-amue5z-uncojn-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-2239-s23300/");
                     break;
                 //天命风流
                 case "锦鲤抄":
-                    Text = "锦鲤抄";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-qx0r3q-fqppyu-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-2424-s25761/");
                     break;
 
                 case "千秋月":
-                    Text = "千秋月";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-qx0r3q-d0mm1s-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-2424-s25763/");
                     break;
 
                 case "凤求凰":
-                    Text = "凤求凰";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-qx0r3q-qza5or-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-2424-s27705/");
                     break;
                 //沧海云帆
                 case "时光沧海":
-                    Text = "时光沧海";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-ttarod-g4v5qv-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-2817-s30259/");
                     break;
 
                 case "青龙永夜":
-                    Text = "青龙永夜";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-ttarod-ckztg3-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-2817-s30260/");
                     break;
 
                 case "今夕何夕":
-                    Text = "今夕何夕";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-ttarod-54014u-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-2817-s30457/");
                     break;
 
                 case "潜龙之渊":
-                    Text = "潜龙之渊";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-ttarod-4i4mfe-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-2817-s30890/");
                     break;
 
                 case "月华流照":
-                    Text = "月华流照";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-ttarod-m4iflc-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-2817-s30984/");
                     break;
 
                 case "幻海花城":
-                    Text = "幻海花城";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-ttarod-1vhsbu-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-2817-s31715/");
                     break;
 
                 case "天风海雨":
-                    Text = "天风海雨";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-ttarod-tqbljz-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-2817-s31985/");
                     break;
 
                 case "天行九歌":
-                    Text = "天行九歌";
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     webBrowser1.Navigate("http://s.5173.com/wuxia-xptjnl-ttarod-bbo0t1-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml");
                     webBrowser2.Navigate("http://www.uu898.com/newTrade-217-c-3-2817-s32491/");
