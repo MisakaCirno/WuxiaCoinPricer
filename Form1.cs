@@ -160,8 +160,6 @@ namespace 天刀金价查询工具
                 {"天行九歌",new Tuple<string,string>(
                     "http://s.5173.com/wuxia-xptjnl-ttarod-bbo0t1-0-bfg1k1-0-0-0-a-a-a-a-a-0-0-0-0.shtml",
                     "http://www.uu898.com/newTrade-217-c-3-2817-s32491/") },
-
-
             };
             
             if (serverList.ContainsKey(ClickTitle.Text))
@@ -175,7 +173,6 @@ namespace 天刀金价查询工具
             {
                 MessageBox.Show($"没有找到服务器【 {ClickTitle.Text} 】。","出错啦！",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
-
 
             /*已被pass的switch方式
             switch (ClickTitle.Text)
@@ -317,11 +314,8 @@ namespace 天刀金价查询工具
                     tabControl2.SelectedTab = tabControl2.TabPages[0];
                     MessageBox.Show("传入了错误信息。");
                     break;
-                    
             }
             */
-
-
         }
 
         private void CheckBox1_CheckedChanged(object sender, EventArgs e)
