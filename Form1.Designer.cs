@@ -59,9 +59,10 @@
             this.button15 = new System.Windows.Forms.Button();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
             this.webBrowser2 = new System.Windows.Forms.WebBrowser();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -85,7 +86,7 @@
             this.tabControl1.Location = new System.Drawing.Point(12, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1031, 59);
+            this.tabControl1.Size = new System.Drawing.Size(911, 59);
             this.tabControl1.TabIndex = 1;
             // 
             // tabPage1
@@ -97,7 +98,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1023, 33);
+            this.tabPage1.Size = new System.Drawing.Size(903, 33);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "青龙乱舞";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -407,6 +408,14 @@
             this.tabPage7.Text = "5173";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
+            // webBrowser1
+            // 
+            this.webBrowser1.Location = new System.Drawing.Point(6, 6);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Size = new System.Drawing.Size(1080, 762);
+            this.webBrowser1.TabIndex = 1;
+            // 
             // tabPage8
             // 
             this.tabPage8.Controls.Add(this.webBrowser2);
@@ -418,14 +427,6 @@
             this.tabPage8.Text = "uu898";
             this.tabPage8.UseVisualStyleBackColor = true;
             // 
-            // webBrowser1
-            // 
-            this.webBrowser1.Location = new System.Drawing.Point(6, 6);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(1080, 762);
-            this.webBrowser1.TabIndex = 1;
-            // 
             // webBrowser2
             // 
             this.webBrowser2.Location = new System.Drawing.Point(6, 6);
@@ -434,14 +435,27 @@
             this.webBrowser2.Size = new System.Drawing.Size(1080, 762);
             this.webBrowser2.TabIndex = 4;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(1012, 12);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(96, 16);
+            this.checkBox1.TabIndex = 4;
+            this.checkBox1.Text = "窗口置顶功能";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.CheckBox1_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1123, 897);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.tabControl2);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
@@ -455,6 +469,7 @@
             this.tabPage7.ResumeLayout(false);
             this.tabPage8.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -493,6 +508,7 @@
         private System.Windows.Forms.WebBrowser webBrowser1;
         private System.Windows.Forms.TabPage tabPage8;
         private System.Windows.Forms.WebBrowser webBrowser2;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
